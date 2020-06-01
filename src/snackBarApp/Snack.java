@@ -60,8 +60,8 @@ public class Snack {
 		this.quantity += quantity;
 	}
 
-	public void buySnack(int numToBuy) {
-		this.quantity -= quantity;
+	public void buySnackQuantity(int numToBuy) {
+		this.quantity -= numToBuy;
 	}
 
 	public double getTotal(int quantity) {
