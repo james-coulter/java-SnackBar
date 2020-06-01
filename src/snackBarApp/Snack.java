@@ -68,11 +68,11 @@ public class Snack {
 		return (this.cost) * quantity;
 	}
 
-	@Override
-	public String toString() {
-		String returnString = "Name: " + name + "\n" + "Vending Machine Id: " + vendingMachineId + "\n" + "Total Quantity " + quantity + "\n" + "Total Cost of Quantity: " + quantity*cost + "\n";
-		return returnString;
-	}
+	// @Override
+	// public String toString() {
+	// 	String returnString = "Name: " + name + "\n" + "Vending Machine Id: " + vendingMachineId + "\n" + "Total Quantity " + quantity + "\n" + "Total Cost of Quantity: " + "$" + quantity*cost + "\n";
+	// 	return returnString;
+	// }
 
 }
 
