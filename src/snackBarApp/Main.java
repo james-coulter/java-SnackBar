@@ -81,7 +81,7 @@ public class Main {
 
 	//STRETCH
 
-		System.out.println("STRETCH GOALS");
+		System.out.println("****** STRETCH GOALS ******");
 
 		System.out.println("\n");
 
@@ -117,6 +117,8 @@ public class Main {
 		System.out.println("Vending Machine: " + drink.getName());
 		System.out.println("Quantity: " + water.getQuantity());
 		System.out.println("Total Cost: " + "$" + water.getTotal(water.getQuantity()));
+
+		System.out.println("\n");
 
 
 	}
