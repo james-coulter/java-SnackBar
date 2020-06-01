@@ -25,11 +25,15 @@ public class Main {
 
 	//PROCESSING
 
+		System.out.println("\n");
+
 		var quantityOfItems = 3;
 		jane.buySnack(quantityOfItems, soda.getCost());
 		soda.buySnackQuantity(quantityOfItems);
 		System.out.println("Customer 1 cash on hand " + "$" + jane.getCashOnHand());
 		System.out.println("Quantity of snack 4 is " + soda.getQuantity());
+
+		System.out.println("\n");
 
 		quantityOfItems = 1;
 		jane.buySnack(quantityOfItems, pretzel.getCost());
@@ -37,11 +41,49 @@ public class Main {
 		System.out.println("Customer 1 cash on hand " + "$" + jane.getCashOnHand());
 		System.out.println("Quantity of snack 3 is " + pretzel.getQuantity());
 
+		System.out.println("\n");
+
 		quantityOfItems = 2;
 		bob.buySnack(quantityOfItems, soda.getCost());
 		soda.buySnackQuantity(quantityOfItems);
 		System.out.println("Customer 1 cash on hand " + "$" + bob.getCashOnHand());
 		System.out.println("Quantity of snack 4 is " + soda.getQuantity());
+
+		System.out.println("\n");
+
+		double foundMoney = 10;
+		jane.addCash(foundMoney);
+		System.out.println("Customer 1 cash on hand " + "$" + jane.getCashOnHand());
+
+		System.out.println("\n");
+
+		quantityOfItems = 1;
+		jane.buySnack(quantityOfItems, chocolateBar.getCost());
+		chocolateBar.buySnackQuantity(quantityOfItems);
+		System.out.println("Customer 1 cash on hand " + "$" + jane.getCashOnHand());
+		System.out.println("Quantity of snack 2 is " + chocolateBar.getQuantity());
+
+		System.out.println("\n");
+
+		quantityOfItems = 12;
+		pretzel.setQuantity(quantityOfItems);
+		System.out.println("Quantity of snack 3 is " + pretzel.getQuantity());
+
+		System.out.println("\n");
+
+		quantityOfItems = 3;
+		bob.buySnack(quantityOfItems, pretzel.getCost());
+		pretzel.buySnackQuantity(quantityOfItems);
+		System.out.println("Customer 1 cash on hand " + "$" + bob.getCashOnHand());
+		System.out.println("Quantity of snack 3 is " + pretzel.getQuantity());
+
+		System.out.println("\n");
+
+		System.out.println("STRETCH GOALS");
+
+		System.out.println("\n");
+
+		
 	}
 
 	public static void main(String[] args) {
